@@ -1,14 +1,14 @@
 {
-  "name": "mvl-blank-project",
+  "name": "mvl-redis-handler",
   "version": "0.0.1",
   "description": "",
-  "main": "src/mvlblankproject.js",
+  "main": "src/mvlredishandler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "mvloader": "^1.0.3",
-    "mvtools": "^1.0.7"
+    "ioredis": "^4.19.2",
+    "mvloader": "^1.0.7"
   },
   "devDependencies": {},
   "author": "mvoevodskiy",
